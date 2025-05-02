@@ -1,0 +1,166 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'League Spartan', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #111;
+    /* background-color: #232c5b; */
+    color: white;
+    padding: 20px 50px;
+  }
+  
+  .navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  .searchInput {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .searchInput::placeholder {
+    color: lightgray;
+  }
+  
+  .limitedOffer {
+    font-size: 20px;
+    border-bottom: 2px solid rgb(194, 40, 156);
+    cursor: pointer;
+  }
+  
+  .navBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menuItem {
+    margin-right: 50px;
+    cursor: pointer;
+    color: lightgray;
+    font-weight: 400;
+  }
+
+  .menuItem:hover {
+    color: white;
+  }
+  
+  .brandlogo {
+    width: 150px;
+    height: 87px;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  main {
+    padding: 50px;
+  }
+  
+  .hero {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero h2 {
+    /* font-size: 2em; */
+    margin-bottom: 20px;
+  }
+
+  
+  /* button {
+    
+
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+
+    transition: all 1s;
+  } */
+
+  .BuyNow {
+    z-index: 2;
+  }
+
+  button {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    backdrop-filter:blur(10px);
+  }
+
+  button:hover{
+    box-shadow: 0 4px 6px rgb(90, 89, 89);
+    transition: all 1s;
+  }
+  
+  /* img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  } */
+
+  /* .Jordan1 {
+    mix-blend-mode: mul;
+  } */
+
+  .CentreShoes {
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%); */
+    top: 50%; 
+    left: 50%; 
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+    text-align: center;
+    /* z-index: 2; */
+  }
+  
+  /* Circle BG */
+   body:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle at 50% 50%, #ffa0a0 25%, transparent 40%);
+    z-index: -1;
+  } 
